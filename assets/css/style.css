@@ -16,11 +16,11 @@ h1 span {background-color: #4aaaa5; color: #ffffff; padding: 10px; margin-left: 
 nav { float: right; color: #666666; font-size: 18px; margin-right: 250px; 
 }
 
-  a:hover {color: rgb(0, 4, 255)
+  a:hover {color: rgb(0, 4, 255); border-color: blue dashed 2px;
 }
 
 div.b{ margin-left: 300px}
-div.c {background-color: #ffffff; width: 960px; border: #dddddd solid 2px;}
+div.c {background-color: #ffffff; width: 960px; border: #dddddd solid 2px; padding: 20px;}
 
 h2 {
     font-family: 'Georgia', Times, 'Times New Roman', serif; color: #4aaaa5; border-bottom: #cccccc 4px solid;
@@ -42,5 +42,8 @@ p {
     width: 900px; background-color: #ffffff; padding: 20px;
 }
 
-img.p {height: 250px; width: 200px; margin: 50px; 
+img.p {height: 250px; width: 200px; margin: 55px; box-sizing: border-box; 
+}
+
+img.p:hover { border:solid blue 4px;
 }
